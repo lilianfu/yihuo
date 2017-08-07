@@ -679,7 +679,7 @@ function QiniuJsSDK() {
                 logger.debug("get uptoken from: ", that.uptoken_url);
                 // TODO: use mOxie
                 var ajax = that.createAjax();
-                ajax.open('GET', that.uptoken_url, false);
+                ajax.open('GET', "http://yanghuo.co/qiniu/upload_token.html, false);
                 ajax.setRequestHeader("If-Modified-Since", "0");
                 // ajax.onreadystatechange = function() {
                 //     if (ajax.readyState === 4 && ajax.status === 200) {
