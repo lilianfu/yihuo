@@ -1,0 +1,104 @@
+body{ background-color:#f1f1f1; overflow-x: hidden}
+a:hover{ text-decoration: none;color:#fd5100}
+.modal-dialog .modal-body{ overflow-y:hidden; padding:0}.reloadverify{cursor:pointer}
+
+/*é®ç½©*/
+.masker{position:fixed;_position:absolute;pointer-events:auto;top:0;left:320px;width:100%;height:100%;_height:expression(document.body.offsetHeight+"px");z-index:19891014; background-color:#393D49; opacity:0.8; filter:alpha(opacity=80); text-align:center}
+.masker_narrow{left: 60px;}
+.masker_full{left: 0}
+.masker span i{font-size:60px;color:#dd514c;}
+.masker span{margin-right:320px; position:relative;top:45%;display:inline-block;}
+.masker span.info{ background-color:#FFF; padding:10px}
+.masker_narrow span{margin-right:60px;}
+
+/*å¤´éƒ¨**/
+.header{height:60px; line-height: 60px; overflow: hidden;border-bottom: 1px solid #ff5100; background-color: #FFF;word-wrap:normal;white-space:nowrap; }
+.header .iconfont{ font-size:26px;color:#aaa; }
+.header .sub-title{color:#aaa; position: absolute;top:5px; left:105px;  }
+.header .weblogo{font-size:90px; color:#ff5100; position:relative;top:8px }
+.header .userlogo{width: 25px; height: 25px; border-radius:25px; position: relative;top:-3px}
+.header .pull-left,.header .pull-right{ padding:0}
+.header .pull-left a,.header .pull-right a,.header .pull-left span,.header .pull-right span{ cursor:pointer; display:inline-block; height:60px; padding:0 5px; line-height:60px; }
+.header .pull-left a.p15,.header .pull-right a.p15,.header .pull-left span.p15,.header .pull-right span.p15{padding:0 15px}
+.header a.text-primary,.header span.text-primary{color:#ff5100}
+
+
+/***çŸ­ä¿¡å‘é€è¾“å…¥ç±»*/
+.listbox{ background-color:#FFF;border-bottom:1px solid #ddd; margin-top: 10px;font-size:12px;}
+.listbox ul{margin-bottom: 0}
+.listbox ul li{ list-style: none; }
+.listbox ul li.line{height:40px;line-height:40px;border-bottom:1px solid #ddd;margin: 0 10px;}
+.listbox ul li p{ margin: 0px}
+.listbox span.lefttitle{ width:48px; }
+.listbox span.leftinput{width:75%\0; width:calc(100% - 68px); }
+.listbox ul li.nobottom{border-bottom: none;}
+.listbox input.w130{  width: 130px}
+.listbox input,.listbox input.form-control:focus{border:none;outline:none; box-shadow: none; text-shadow: none;   margin-top: 3px; margin-left: 5px;}
+.listbox .send_captcha{cursor: pointer;padding:0 5px; background-color: #f9f9f9; height: 25px; line-height: 25px; margin-top: 7.5px;border:1px solid #ccc;border-radius:2px; font-size: 12px;color:#999}
+
+
+/*è¾“å…¥æ¡†åˆ é™¤*/
+.input-del{ position:relative;}
+.input-del i.icon-input-del{position: absolute;top:8px; font-size: 22px; color:#aaa;cursor: pointer; display: none}
+
+/**è®¢å•æäº¤é¡µ è®¢å•æ”¯ä»˜é¡µ è®¢å•åˆ—è¡¨é¡µ è®¢å•è¯¦æƒ…é¡µå…¬ç”¨*/
+.listbox ul li.roominfo img{width:20px; height: 20px; border-radius: 20px; margin-right: 5px}
+.listbox ul li.roominfo a{color:#222}
+.listbox ul li.roominfo .icon-right{position: relative;top:1px; font-size: 14px;left:3px}
+.listbox ul li.goodsCol {  background-color: #f4f4f4; margin-bottom: 3px; padding: 8px}
+.listbox ul li.goodsCol .img{display:inline-block; width: 70px; height: 70px; background-color: #ddd; margin: 0 auto}
+.listbox ul li.goodsCol .img img{ -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover;background-color: #ddd; }
+.listbox ul li.goodsCol .name{ font-size:14px;color:#333}
+.listbox ul li.goodsCol .spec{color:#aaa}
+.listbox ul li.goodsCol .price,.listbox ul li.goodsCol .num,.listbox ul li.goodsCol .x{color:#333}
+.listbox ul li.countCol{border: none}
+
+/***ç©ºä¿¡æ¯æç¤º*/
+.emptyInfo{height:200px; padding-top: 50px;  text-align: center;color:#aaa}.emptyInfo p{ margin: 0;line-height: 25px;}	.emptyInfo p i{ font-size:60px} 
+
+
+/**è¯¦æƒ…é¡µå…¬ç”¨**/
+.empty{ display: inline-block; height: 10px}
+.infobox{ min-height: 230px; background-color:#FFF; border-top:none; padding:15px}
+.otherList {padding-bottom: 15px;}
+.otherList li{ list-style: none}
+.otherList li.imgbox{  height: 150px; position: relative; cursor: pointer }
+.otherList li.imgbox p{ margin: 0; padding: 0; display: inline-block; width: 100%; height: 100%;}
+.otherList li.imgbox p.img{ -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover; background-size: cover; }
+.otherList li.imgbox p.play{position: absolute;top:50%; left: 50%;  display: inline-block; line-height: 50px;height: 50px;width: 50px;  -webkit-border-radius: 80px;-moz-border-radius: 80px;border-radius: 80px; opacity: 0.9; text-align: center; margin-left: -25px; margin-top: -25px;background-color: #2B333F;background-color: rgba(43, 51, 63, 1); opacity:0.6}
+.otherList li.imgbox p.play i{  font-size: 28px; color:#FFF; line-height: 50px; margin-left: 5px}
+.otherList li.title{height: 45px; overflow: hidden; margin-bottom: 5px}
+.otherList li.title p{margin: 5px 0}
+ 	
+.roombox{  padding: 10px; overflow: hidden; background-color: #FFF; border-top:1px solid #ddd;  text-align: center; font-size: 18px;   border-bottom:1px solid #ddd;}
+.roombox p{margin:5px 0; word-wrap:normal;white-space:nowrap; }
+.roombox p span{ display: inline-block;  height: 50px; line-height: 50px;}
+.roombox p span.logo{  width: 50px; overflow: hidden; margin-right: 10px; vertical-align: middle;}
+.roombox p span.logo img{width: 50px; height: 50px;border-radius: 50px;webkit-border-radius: 50px;-moz-border-radius: 50px; margin-top: -2px; }
+.roombox p span.title{width: 70%; overflow:hidden;word-wrap:normal;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow: ellipsis; text-align: left}
+.roombox p span.title a{ color:#111;}
+.roombox p span.like i{ font-size: 23px; position: relative;left:3px}
+
+/**è¯¦æƒ…é¡µç»“æŸ**/
+.maoren-wsn{word-wrap:normal;white-space:nowrap;}
+.maoren-pre{overflow:hidden;text-align:left;white-space:pre-wrap;word-wrap:break-word;word-break:break-all;}
+.maoren-wwb{white-space:normal;word-wrap:break-word;word-break:break-all;}
+.maoren-ti{overflow:hidden;text-indent:-30000px;}
+.maoren-ti2{text-indent:2em;}
+.maoren-lhn{line-height:normal;}
+.maoren-tdu,.maoren-tdu:hover{text-decoration:underline;}
+.maoren-tdn,.maoren-tdn:hover{text-decoration:none;}
+.maoren-toe{overflow:hidden;word-wrap:normal;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow: ellipsis; }
+.maoren-f12{font-size:12px;}
+.maoren-f14{font-size:14px;}
+.maoren-f16{font-size:16px;}
+.maoren-f18{font-size:18px;}
+.maoren-f20{font-size:20px;}
+.maoren-f22{font-size:22px;}
+.maoren-f24{font-size:24px;}
+.maoren-f26{font-size:26px;}
+.maoren-f28{font-size:28px;}
+.maoren-f30{font-size:30px;}
+.maoren-csp{ cursor:pointer}
+
+ 
